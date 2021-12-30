@@ -14,3 +14,20 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+@font-face {
+  font-family: Ionicons;
+  font-style: normal;
+  font-weight: 400;
+  src: url(~react-web-vector-icons/fonts/Ionicons.ttf) format('truetype')
+}
+
+@import url(https://fonts.googleapis.com/css?family=Ruthie:300,400,500&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500&display=swap);
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
