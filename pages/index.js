@@ -11,7 +11,7 @@ import ImageAndDescription from '../components/imageAndDescription'
 import ImageAndDescriptionCustom from '../components/imageAndDescriptionCustom'
 
 export default function Home() {
-  const [isVerify,setIsVerify] = React.useState(true);
+  const [isVerify,setIsVerify] = React.useState(false);
   const [value, setValue] = React.useState('')
   const [error, setError] = React.useState(false)
   return isVerify?(
