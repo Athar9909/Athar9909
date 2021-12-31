@@ -1,28 +1,22 @@
-import { config } from "../constants/config";
 
 export default function TitleAndDescription() {
   return (
-      <div className='flex-1 flex flex-col p-4 justify-center items-center'>
-            <text className='text-center font-medium text-4xl text-gray-700 sm: text-xl md:text-4xl '>
-             Welcome to {config.siteTitle}
-            </text>        
+      <div className='flex-1 flex flex-col  justify-center items-center relative'>
+          <div className="z-10  text-center">
             <br/>
-            <text className='text-center font-semibold text-gray-500 w-3/4'>
-            Styling the Image component is not
-             that different from styling a normal  element, but there are a few guidelines to keep in mind:
-            Pick the correct layout mode
-            The image component has several different
-            layout modes that define how it is sized on the page. 
-            If the styling of your image isn't turning out the way you want, 
-            consider experimenting with other layout modes.
-            Target the image with className, not based on DOM structure
-            Regardless of the layout mode used, the Image component will have
-            a consistent DOM structure of one  tag wrapped by exactly one. For some modes, 
-            it may also have a sibling  for spacing. These additional 
-            elements are critical to allow the component to prevent layout shifts.
-            The recommended way to style the inner  is to set the className 
-            prop on the Image component to the value of an imported CSS Module. 
-            The value of className will be automatically applied to the underlying element.  
+            <br/>
+            <text className={`z-10 subpixel-antialiased	 font-medium text-4xl text-indigo-700 sm: text-xl md:text-4xl `}>
+             Happy New Year 
+            </text>        
+            </div> 
+            <br/>
+            <br/>
+            <text className={`z-10 subpixel-antialiased	text-center font-semibold text-gray-500 text-2xl w-3/4`}>
+              Miss Sunshine 💌 <br/>
+              Remember, no matter what the year brings, you are loved and you are strong.<br/>
+              Hoping for a better year ahead, let us start this year with a positive and calm mind.<br/>
+              I wish that this year brings a new ray of light in your light in the same way that you 
+              have come into mine as my sunshine.
             </text>  
             <br/>
       </div>

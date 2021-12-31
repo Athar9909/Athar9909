@@ -46,16 +46,16 @@ export default function Layout ({ children }) {
                         )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
                     />
                     <meta name="og:title" content={config.metaTitle}/>
-                    <link rel="icon" href="new.ico"/>
+                    <link rel="icon" href="favicon.svg"/>
                     <meta name="twitter:card" content="summary_large_image" />
                     <title>{config.siteTitle}</title>
                 </Head>
                 <header>
-                    <ParallaxLayer offset={0} speed={0.5}>
+                    <ParallaxLayer offset={0}>
                         <div className={'shadow-md'}>
                             <div
-                                className={`learn-gray flex flex-row items-center justify-around py-2 ${styles.learnBlue} ${styles.upperHeader}`}>
-                                {config?.headerPhoneNumber && <div
+                                className={`flex flex-row items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 justify-around py-2  ${styles.upperHeader}`}>
+                                {config?.headerPhoneNumber&& false && <div
                                     className={'text-white transition duration-500 ease-in-out transform hover:scale-110'}>
                                     <Ionicons name={'ios-call'} color={'#fff'} size={20}/>
                                     {' '}
@@ -80,7 +80,7 @@ export default function Layout ({ children }) {
                                 </div>
                             </div>
                             <div
-                                className={`${styles.learnGray} flex flex-row justify-between items-start lg:items-center xl:items-center 2xl:items-center p-1`}>
+                                className={`${styles.learnGray} flex flex-row  justify-center items-start lg:items-center xl:items-center 2xl:items-center p-1`}>
                                 <Link href={'/'}>
                                     <img
                                         width={config.logoWidth}
@@ -89,8 +89,8 @@ export default function Layout ({ children }) {
                                         alt={'logo'}
                                     />
                                 </Link>
-                                <div className={'flex flex-row items-center justify-center'}>
-                                    <div className={'hidden lg:flex flex-row items-center justify-center'}>
+                                {/* <div className={'flex flex-row items-center justify-center'}> */}
+                                    {/* <div className={'hidden lg:flex flex-row items-center justify-center'}>
                                         {headerLinks.map(({ link, title }) => (
                                             <div className={'m-2 flex flex-row items-center'} key={link}>
                                                 <Link href={`${link}`}>
@@ -101,8 +101,8 @@ export default function Layout ({ children }) {
                                                 </Link>
                                             </div>
                                         ))}
-                                    </div>
-                                    <div className={'z-50 animate flex lg:hidden xl:hidden 2xl:hidden' +
+                                    </div> */}
+                                    {/* <div className={'z-50 animate flex lg:hidden xl:hidden 2xl:hidden' +
                                     ' justify-center items-end flex-col'}>
                                         <div onClick={() => {
                                           setMenuVisible(!menuVisible)
@@ -123,20 +123,20 @@ export default function Layout ({ children }) {
                                                 </div>
                                             ))}
                                         </div>
-                                    </div>
-                                </div>
+                                    </div> */}
+                                {/* </div> */}
                             </div>
                         </div>
                     </ParallaxLayer>
                 </header>
-                <div className={`${styles.upperSpace} ${menuVisible ? '' : 'hidden'}`}/>
+                {/* <div className={`${styles.upperSpace} ${menuVisible ? '' : 'hidden'}`}/> */}
                 <div className={`${styles.upperSpace}`}/>
                 <main className={`z-30 ${styles.childContainer}`}>
                     {children}
                 </main>
                 <br/>
                 <div className={`${styles.learnGray}`}>
-                    <div className={'flex flex-col justify-between items-center p-2 '}>
+                    <div className={'flex flex-col text-center justify-between items-center p-2 '}>
                         <img
                             src={config.footerLogo}
                             className={`${styles.headerHomeImage} mx-3`}

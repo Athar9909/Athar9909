@@ -31,3 +31,9 @@ a {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.img-bg-1 {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../public/image3.svg');
+}
