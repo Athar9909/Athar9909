@@ -1,6 +1,5 @@
 // https://github.com/account
 //
-import Image1 from '../public/pictures/pic1.jpeg'
 
 export const settings = {
     infinite: true,
@@ -38,18 +37,16 @@ export const settings = {
 
  export const ImageAndDescriptionInfo =  [
   {
-    imagePath: 'pictures/pic5.jpeg',
-    heading: 'Sunshine 💝',
+    imagePath: 'pictures/pic8.jpg',
+    heading: 'zebu 💝',
     desc: `
     Unhone jo apni nigahen uthayiii...
     Mohabbat ki Rahen jo unme dikhayii...
-    Nigahon ke unki deewane hue h...
-    Mohabbat ki rahon pe jana nhi tha...
-    Yun dil ko dubara jalana nhi tha...
+    Nigahon ke unki deewane hue h...y
     `,
   },
   {
-    imagePath: 'pictures/pic7.jpeg',
+    imagePath: 'pictures/pic7.jpg',
     heading: 'Bee 🥂',
     desc: `
     Sajne Ke Waqt Yeh Bhi Zara Daikhte Nahi
@@ -57,7 +54,7 @@ export const settings = {
     `
   },
   {
-    imagePath: 'pictures/pic4.jpeg',
+    imagePath: 'pictures/pic4.jpg',
     heading: 'Honey 🍯',
     desc: `
     bahut khoobsurat ho tum....
@@ -82,12 +79,12 @@ bahut khoobsurat ho tum....
 `
   },
   {
-    imagePath: 'pictures/pic2.jpeg',
+    imagePath: 'pictures/pic2.jpg',
     heading: 'Bunny 🫂',
     desc: 'Thank You So My Sunshine, for being an amazing part of my 2021.'
   },
   {
-    imagePath: 'pictures/pic1.jpeg',
+    imagePath: 'pictures/pic1.jpg',
     heading: 'Lulu 👠',
     desc: `
     Aaj hum dono ko fursat hain, chalo ishq karein,
@@ -99,7 +96,7 @@ Yaar chodo yeh sab siyast hain, chalo ishq karein
     `
   },
   {
-    imagePath: 'pictures/pic6.jpeg',
+    imagePath: 'pictures/pic6.jpg',
     heading: 'Hope ✨',
     desc: `
     Sharaab kaisi, Khumaar kaisa
@@ -113,7 +110,7 @@ Yaar chodo yeh sab siyast hain, chalo ishq karein
     `
   },
   {
-    imagePath: 'pictures/pic3.jpeg',
+    imagePath: 'pictures/pic3.jpg',
     heading: 'Aashi 💌',
     desc: `Lubna: m tera picha nhi chorhne vli,
     \n

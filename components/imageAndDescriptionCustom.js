@@ -30,7 +30,7 @@ export default function ImageAndDescription({image, alt, isOpposite, heading, de
                 
                 <ul>
                   <li>
-                    <text className="font-bold text-pink-400">I</text> am <b>Asher Toufeeq</b>, who belives that
+                    <text className="font-bold text-pink-400">I</text> am <b>ATHAR AHMAD</b>, who belives that
                   </li>
                   <li>
                   <text className="font-bold text-pink-400">Love</text> is Beautiful thing and 

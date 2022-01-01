@@ -10,5 +10,5 @@ export const config = {
     footerLogo:'favicon.svg',
     footerLogoWidth:'89px',
     footerTag:'The only lasting beauty is the beauty of the heart',
-    authNames:['sunshine','bee','lulu','aashi']
+    authNames:['zebu','bee','lulu',]
 }

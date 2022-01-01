@@ -77,7 +77,7 @@ export default function Home() {
       <br/>
       {error && <div className='mx-4 px-2 bg-white rounded'>
         <text className='text-red-500 font-semibold p-0 m-0'>
-          This site is specifically made for Lubna, only she have access to content ahead!!!
+          This site is specifically made for ZEBA, only she have access to content ahead!!!
         </text>
       </div>}
     </div>
