@@ -1,34 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[![Header](https://i.postimg.cc/4NsFjN6G/Screenshot-2024-03-04-185708.png "Header")](https://atharggg.netlify.app/)
 
-## Getting Started
+Hi there ✋!  
+I am Athar Ahmad.
+(Senior Frontend , Software Developer)
 
-First, run the development server:
+## About Me
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Creating your web app from scratch with dedicated designers and multiple developers can be very expensive.So Hire me and Let me handle that part. Save time and money by focusing on the business model.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Our expertise
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Create UI for web/portal/app
+  -  Turn your static web into a fully functional React app.
+- Power Hackathons
+  -  I understand and already worked with 5 client that will also help to boost your startups.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Contact Me
 
-## Learn More
+[<img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" />](https://github.com/creativetimofficial) [<img alt="linkedin" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />]([https://www.linkedin.com/in/creative-tim-1b54778b](https://www.linkedin.com/in/athar-ahmad-5658611b7/))  <img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="center">Made with ❤️ for a better web. </p>
+<p align="center">
+https://atharggg.netlify.app/
+</p>
