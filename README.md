@@ -18,7 +18,7 @@ I take products from **blank repo to production**: web, mobile (Android/iOS), ba
 
 ## 🧭 At a glance
 
-- 🤖 **AI in production, not demos.** I ship LLM features that act on real data: tool-calling assistants, AI-personalized UIs, multilingual voice (TTS) and guardrailed product bots.
+- 🤖 **AI in production, not demos.** I build real-time voice AI agents ([ShivAI](https://callshivai.com), 1M+ conversations) and ship LLM features that act on real data: tool-calling assistants, multilingual voice (TTS) and guardrailed bots.
 - 📱 **Ship to the stores.** I maintain a React Native app on Google Play end to end: releases, Android 16 / API 36 targeting, 16 KB page-size compliance, Firebase Crashlytics and Performance.
 - 🧱 **Full-stack ownership.** React + TypeScript frontends, Node/Express + MongoDB backends, deployed on Vercel and Render.
 - 🔐 **Fintech & KYC.** Native Kotlin / Jetpack Compose: ID-card OCR, face match, liveness checks, biometrics and Stripe payments.
@@ -28,17 +28,16 @@ I take products from **blank repo to production**: web, mobile (Android/iOS), ba
 
 ## 🚀 Featured work
 
-### 🧾 SethSathi (UManager): AI-native business OS for Indian SMBs
-**Full-stack · TypeScript · React · Node/Express · MongoDB · Groq LLM** · [Live app](https://u-manager-web-frontend.vercel.app)
+### 📞 ShivAI: voice AI employee for businesses
+**React · TypeScript · Real-time Voice AI** · [callshivai.com](https://callshivai.com)
 
-A multi-tenant inventory, sales, GST invoicing, staff and payroll platform with a built-in AI assistant, **Munshi AI**. I designed and built the backend and the web app from scratch.
+ShivAI is an AI employee that answers calls and sells, supports and books appointments 24/7, in **50+ languages**. It has powered **1M+ conversations** across **100+ industries**. I build the product's web frontend.
 
-- **Tool-calling AI assistant.** Users ask *"Aaj kitni sale hui?"* and get answers grounded in a live snapshot of their own business. The assistant can also **draft orders and mark attendance** through schema-validated (Zod) actions that the user confirms before anything is saved.
-- **AI-personalized dashboard.** The LLM reorders and relabels the dashboard from onboarding answers. A **closed allow-list of sections** means a hallucinated response can never add widgets that don't exist.
-- **Multilingual voice.** English, Hinglish and Hindi (Devanagari) with Indian neural TTS voices, an LRU audio cache, SSML escaping of user input, and a fallback to the browser's own voice.
-- **Guardrailed pre-login bot.** It only answers from product facts, resists prompt injection, never asks for OTPs or passwords, and handles sign-up inside the chat.
-- **Domain modules.** Orders, invoices, stock ledger, multi-warehouse, suppliers, Bill of Materials and assembly, attendance and payroll, OTP and JWT auth, Cloudinary uploads, barcode/QR scanning.
-- **Stack.** React 19, Vite, Tailwind v4, TanStack Query, Zustand, React Hook Form + Zod, i18next, Recharts; Express, Mongoose, Helmet, JWT; Groq (`gpt-oss-120b`) through the OpenAI SDK.
+- **Real-time voice conversations** in the browser and on phone lines. The agent picks up intent and context and takes actions instead of following a script.
+- **One-line integration.** Businesses add ShivAI to their website, app or phone line with a single snippet.
+- **Multilingual UX** for global and Indian regional languages (*"नमस्ते"* is on the landing page).
+- **Integrations:** WhatsApp Business, HubSpot, Zoho, Zendesk, Shopify, Stripe, Calendly, Twilio and more, so calls turn into leads, tickets, bookings and payments.
+- **Industry use cases:** healthcare, e-commerce, fintech (KYC), real estate, edtech, logistics and government services.
 
 ### 🎉 Anasa: event-planning marketplace app (live on Google Play)
 **React Native · Redux-Saga · Firebase · Maps · Payments**
