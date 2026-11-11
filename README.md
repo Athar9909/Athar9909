@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://atharggg.netlify.app/"><img src="./assets/banner.webp" alt="Athar Ahmad — Senior Software Engineer · Full-Stack & Mobile · Building AI-powered products" width="100%" /></a>
+<a href="https://atharggg.netlify.app/"><img src="assets/banner.png" alt="Athar Ahmad — Senior Software Engineer · Full-Stack & Mobile · Building AI-powered products" width="100%" /></a>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=netlify&logoColor=white)](https://atharggg.netlify.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/athar-ahmad-5658611b7/)
