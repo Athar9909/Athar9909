@@ -1,12 +1,6 @@
 <div align="center">
 
-[![Header](https://i.postimg.cc/4NsFjN6G/Screenshot-2024-03-04-185708.png "Athar Ahmad")](https://atharggg.netlify.app/)
-
-# Hi, I'm Athar Ahmad 👋
-
-### Senior Software Engineer · Full-Stack & Mobile · Building AI-powered products
-
-I take products from **blank repo to production**: web, mobile (Android/iOS), backend, and the AI layer that ties them together.
+<a href="https://atharggg.netlify.app/"><img src="./assets/banner.webp" alt="Athar Ahmad — Senior Software Engineer · Full-Stack & Mobile · Building AI-powered products" width="100%" /></a>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=netlify&logoColor=white)](https://atharggg.netlify.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/athar-ahmad-5658611b7/)
